@@ -1,0 +1,28 @@
+crafting_materials:
+  - name: "templante"
+    path_to_model: "/a/path/to/the/3d/model/used"
+    area: "hills"                                   # areas: hills, shadow, sun, grass, rock, 
+    is_permanent: false                             # is_permanent: is it for a permanent potion only or not?
+    quest_item: false                               # is the item given by quest, when true it ignores the "area" key
+    quest_name: "The Great Templater"               # name of the quest where the item is given, quest_item must be enabled for it to work
+    attributes: # attributes that the crafting material modifies
+      # life/health
+      - defence: 1.0
+      - health: 1.0
+      - health_regen: 1.0
+      # combat attack
+      - damage: 1.0
+      - crit_chance: 1.0
+      - attack_speed: 1.0
+      - throw_range: 1.0
+      - refill_speed: 1.0
+      - potion_swap_speed: 1.0
+      # combat survival
+      - life_steal: 
+      # general mobility
+      - move_speed: 1.0
+      - jump_height: 1.0
+      # inventory
+      - inventory_slots: 1.0
+      - potion_ready_slots: 1.0
+    
