@@ -36,9 +36,6 @@ public class Player : KinematicBody
         camera = GetNode<Camera>("CameraPivot/Camera");
 
         Input.SetMouseMode(Input.MouseMode.Captured);
-
-        Gun gun = new Gun();
-        this.AddChild(gun);
     }
 
     public override void _Process(float delta) {
