@@ -1,0 +1,97 @@
+{
+    "pistol": {
+        "mod_count": 5,
+        "gun_flags": {
+            "projectile_speed": 1,
+            "projectile_size": 1,
+            "projectile_amount": 1,
+            "projectile_storage": 1,
+            "projectile_rate": 1,
+            "projectile_accuracy": 1,
+            "projectile_damage": 1,
+            "projectile_reflect": 1,
+            "projectile_range": 1,
+            "projectile_shape": 1,
+            "reload_time": 1,
+            "crit_multiplier": 1,
+            "crit_chance": 1,
+            "gun_handling": 1
+        }
+    }, 
+    "rifle": {
+        "mod_count": 5,
+        "gun_flags": {
+            "projectile_speed": 1,
+            "projectile_size": 1,
+            "projectile_amount": 1,
+            "projectile_storage": 1,
+            "projectile_rate": 1,
+            "projectile_accuracy": 1,
+            "projectile_damage": 1,
+            "projectile_reflect": 1,
+            "projectile_range": 1,
+            "projectile_shape": 1,
+            "reload_time": 1,
+            "crit_multiplier": 1,
+            "crit_chance": 1,
+            "gun_handling": 1
+        }
+    }, 
+    "shotgun": {
+        "mod_count": 5,
+        "gun_flags": {
+            "projectile_speed": 1,
+            "projectile_size": 1,
+            "projectile_amount": 1,
+            "projectile_storage": 1,
+            "projectile_rate": 1,
+            "projectile_accuracy": 1,
+            "projectile_damage": 1,
+            "projectile_reflect": 1,
+            "projectile_range": 1,
+            "projectile_shape": 1,
+            "reload_time": 1,
+            "crit_multiplier": 1,
+            "crit_chance": 1,
+            "gun_handling": 1
+        }
+    }, 
+    "sniper": {
+        "mod_count": 5,
+        "gun_flags": {
+            "projectile_speed": 1,
+            "projectile_size": 1,
+            "projectile_amount": 1,
+            "projectile_storage": 1,
+            "projectile_rate": 1,
+            "projectile_accuracy": 1,
+            "projectile_damage": 1,
+            "projectile_reflect": 1,
+            "projectile_range": 1,
+            "projectile_shape": 1,
+            "reload_time": 1,
+            "crit_multiplier": 1,
+            "crit_chance": 1,
+            "gun_handling": 1
+        }
+    }, 
+    "launcher": {
+        "mod_count": 5,
+        "gun_flags": {
+            "projectile_speed": 1,
+            "projectile_size": 1,
+            "projectile_amount": 1,
+            "projectile_storage": 1,
+            "projectile_rate": 1,
+            "projectile_accuracy": 1,
+            "projectile_damage": 1,
+            "projectile_reflect": 1,
+            "projectile_range": 1,
+            "projectile_shape": 1,
+            "reload_time": 1,
+            "crit_multiplier": 1,
+            "crit_chance": 1,
+            "gun_handling": 1
+        }
+    }
+}
