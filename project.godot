@@ -52,6 +52,10 @@ restart={
  ]
 }
 
+[mono]
+
+project/assembly_name="Potion Palooza"
+
 [physics]
 
 common/enable_pause_aware_picking=true

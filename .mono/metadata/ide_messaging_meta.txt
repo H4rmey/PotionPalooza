@@ -1,2 +1,2 @@
-﻿33807
-/snap/gd-godot-engine-mono-snapcraft/21/godot-engine-mono/godot-engine-mono
+﻿36363
+/snap/gd-godot-engine-mono-snapcraft/22/godot-engine-mono/godot-engine-mono
