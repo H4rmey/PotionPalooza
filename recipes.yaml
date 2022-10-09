@@ -1,0 +1,9 @@
+recipes:
+  - name: "Special Recipe Name"
+    resulting_potion: "name_of_potion_no_spaces"
+    ingedients: # names for all ingedients needed
+      - "plant1"
+      - "plant2"
+      - "plant3"
+      - "plant4"
+      - "plant5"
