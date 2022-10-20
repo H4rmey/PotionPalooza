@@ -35,12 +35,12 @@ public class Player : KinematicBody
         camera_pivot = GetNode<Spatial>("CameraPivot");
         camera = GetNode<Camera>("CameraPivot/Camera");
 
-        Input.SetMouseMode(Input.MouseMode.Captured);
+        Input.MouseMode = Input.MouseModeEnum.Captured;
     }
 
     public override void _Process(float delta) {
         if (Input.IsActionJustPressed("ui_cancel")) {
-            Input.SetMouseMode(Input.MouseMode.Visible);
+            Input.MouseMode = Input.MouseModeEnum.Visible;
         }
     }
 

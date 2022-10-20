@@ -96,7 +96,6 @@ Use these materials to upgrade you potions and gear.
 
 ### Quest items book
 
-
 # Folder structure
 Player:
     Scripts:
@@ -116,21 +115,3 @@ Quests:
 NPC:
 Inventory:
     Books:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
