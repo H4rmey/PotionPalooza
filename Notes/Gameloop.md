@@ -97,8 +97,25 @@ Use these materials to upgrade you potions and gear.
 ### Quest items book
 
 
-
-
+# Folder structure
+Player:
+    Scripts:
+    3D_Objects:
+        Animations:
+        Textures:
+    2D_Objects:
+    Yamls:
+    Scenes:
+Enviroment:
+    Biomes:
+        Terrains:
+        Villages:
+        General_Assets:
+Ingredients:
+Quests:
+NPC:
+Inventory:
+    Books:
 
 
 
