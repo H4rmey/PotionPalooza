@@ -1,0 +1,7 @@
+@startuml
+class PlayerHandler {
+    + <<override>> _Ready() : void
+}
+PlayerHandler --> "inventoryHandler" InventoryHandler
+PlayerHandler --> "playerAttributes" PlayerAttributes
+@enduml

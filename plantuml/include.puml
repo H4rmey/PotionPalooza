@@ -1,0 +1,13 @@
+@startuml
+!include ./Player/Scripts/PlayerAttributes.puml
+!include ./Player/Scripts/Player.puml
+!include ./Player/Scripts/PlayerHandler.puml
+!include ./Systems/Inventory/Scripts/ObjectData.puml
+!include ./Systems/Inventory/Scripts/InventoryHandler.puml
+!include ./Systems/Inventory/Scripts/InventorySlot.puml
+!include ./Systems/Inventory/Scripts/PickableObject.puml
+!include ./Systems/Items/Scripts/Quality.puml
+!include ./Systems/Crafting/Scripts/RecipeBuilder.puml
+!include ./Systems/Items/CraftingItems/Ingredients/Scripts/Ingredient.puml
+!include ./Systems/Items/CraftingItems/Flasks/Scripts/Flask.puml
+@enduml

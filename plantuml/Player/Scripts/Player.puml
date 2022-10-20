@@ -1,0 +1,24 @@
+@startuml
+class Player {
+    speed : float = 20f
+    acceleration : float = 15f
+    air_acceleration : float = 5f
+    gravity : float = 0.98f
+    max_terminal_velocity : float = 54f
+    jump_power : float = 20f
+    shoot_power : float = 20f
+    mouse_sensitivity : float = 0.3f
+    min_pitch : float
+    max_pitch : float = 90f
+    - y_velocity : float
+    + <<override>> _Ready() : void
+    + <<override>> _Process(delta:float) : void
+    + <<override>> _Input(@event:InputEvent) : void
+    + <<override>> _PhysicsProcess(delta:float) : void
+    - <<async>> handle_movement(delta:float) : void
+}
+KinematicBody <|-- Player
+Player --> "velocity" Vector3
+Player --> "camera_pivot" Spatial
+Player --> "camera" Camera
+@enduml

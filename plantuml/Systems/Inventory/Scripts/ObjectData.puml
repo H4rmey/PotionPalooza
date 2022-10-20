@@ -1,0 +1,6 @@
+@startuml
+class ObjectData {
+    + <<override>> _Ready() : void
+}
+ObjectData --> "pickableObject" PickableObject
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+class PlayerAttributes <<struct>> {
+    + defence : float
+    + health : float
+    + healthRegen : float
+    + attackDamage : float
+    + critDamage : float
+    + throwRange : float
+    + reloadSpeed : float
+    + potionSwapSpeed : float
+    + lifeSteal : float
+    + moveSpeed : float
+    + jumpHeight : float
+    + nofInventorySlots : float
+    + nofReadySlots : float
+    + enhancementTime : float
+    + fireResistance : float
+    + iceResistance : float
+}
+@enduml

@@ -1,0 +1,6 @@
+@startuml
+class InventorySlot {
+    + <<override>> _Ready() : void
+}
+InventorySlot --> "objectData" ObjectData
+@enduml

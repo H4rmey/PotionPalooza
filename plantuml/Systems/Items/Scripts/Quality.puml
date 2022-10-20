@@ -1,0 +1,5 @@
+@startuml
+class Quality {
+    + <<override>> _Ready() : void
+}
+@enduml

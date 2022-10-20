@@ -1,0 +1,8 @@
+@startuml
+class InventoryHandler {
+    + <<override>> _Ready() : void
+}
+class "List`1"<T> {
+}
+InventoryHandler --> "inventorySlots<InventorySlot>" "List`1"
+@enduml
